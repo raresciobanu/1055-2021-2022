@@ -102,7 +102,7 @@ public:
 	}
 
 	friend ostream& operator<<(ostream& out, const Vehicul& v) {
-		cout << "Vehiculul are culoarea " << v.culoare << " nr km " << v.nrKm
+		out << "Vehiculul are culoarea " << v.culoare << " nr km " << v.nrKm
 			<< " este fabricat in anul " << v.an << " marca fiind " << v.marca
 			<< " seria " << v.serie << endl;
 
